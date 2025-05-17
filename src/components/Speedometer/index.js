@@ -10,7 +10,7 @@ class Speedometer extends Component {
       this.setState(prevState => ({speed: prevState.speed + 10}))
     }
   }
-
+// edited after change
   onCLickApplyBrakeButton = () => {
     const {speed} = this.state
     if (speed > 0) {
